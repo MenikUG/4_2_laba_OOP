@@ -98,5 +98,11 @@ namespace _4_2_laba_OOP
         {
             maskedTextBox2.Text = "";
         }
+
+        private void mvc_form_Click(object sender, EventArgs e)
+        {
+            Form MVC = new Form_MVC();
+            MVC.Show();
+        }
     }
 }

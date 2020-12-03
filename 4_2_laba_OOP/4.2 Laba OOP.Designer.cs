@@ -34,6 +34,7 @@
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.hScrollBar2 = new System.Windows.Forms.HScrollBar();
             this.num2 = new System.Windows.Forms.NumericUpDown();
+            this.mvc_form = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.num1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num2)).BeginInit();
             this.SuspendLayout();
@@ -116,11 +117,22 @@
             0});
             this.num2.ValueChanged += new System.EventHandler(this.num2_ValueChanged);
             // 
+            // mvc_form
+            // 
+            this.mvc_form.Location = new System.Drawing.Point(8, 173);
+            this.mvc_form.Name = "mvc_form";
+            this.mvc_form.Size = new System.Drawing.Size(642, 81);
+            this.mvc_form.TabIndex = 8;
+            this.mvc_form.Text = "С использованием MVC";
+            this.mvc_form.UseVisualStyleBackColor = true;
+            this.mvc_form.Click += new System.EventHandler(this.mvc_form_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1173, 533);
+            this.ClientSize = new System.Drawing.Size(662, 266);
+            this.Controls.Add(this.mvc_form);
             this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.hScrollBar2);
             this.Controls.Add(this.num2);
@@ -143,6 +155,7 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.HScrollBar hScrollBar2;
         private System.Windows.Forms.NumericUpDown num2;
+        private System.Windows.Forms.Button mvc_form;
     }
 }
 

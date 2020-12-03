@@ -8,3 +8,4 @@ D:\Projects\4_2_laba_OOP\4_2_laba_OOP\obj\Debug\4_2_laba_OOP.csproj.GenerateReso
 D:\Projects\4_2_laba_OOP\4_2_laba_OOP\obj\Debug\4_2_laba_OOP.csproj.CoreCompileInputs.cache
 D:\Projects\4_2_laba_OOP\4_2_laba_OOP\obj\Debug\4_2_laba_OOP.exe
 D:\Projects\4_2_laba_OOP\4_2_laba_OOP\obj\Debug\4_2_laba_OOP.pdb
+D:\Projects\4_2_laba_OOP\4_2_laba_OOP\obj\Debug\_4_2_laba_OOP.Form_MVC.resources
